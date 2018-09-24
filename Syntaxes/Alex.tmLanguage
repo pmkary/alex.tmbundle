@@ -4,12 +4,12 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>l</string>
+		<string>x</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~L</string>
 	<key>name</key>
-	<string>Lex/Flex</string>
+	<string>Alex</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -20,7 +20,7 @@
 			<key>end</key>
 			<string>^(?=%%$)</string>
 			<key>name</key>
-			<string>meta.section.definitions.lex</string>
+			<string>meta.section.definitions.alex</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -33,7 +33,7 @@
 					<key>end</key>
 					<string>\*/|$</string>
 					<key>name</key>
-					<string>comment.block.c.lex</string>
+					<string>comment.block.c.alex</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -43,13 +43,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.lex</string>
+							<string>entity.name.function.alex</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>$</string>
 					<key>name</key>
-					<string>meta.definition.lex</string>
+					<string>meta.definition.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -66,13 +66,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.start-condition.lex</string>
+							<string>punctuation.definition.start-condition.alex</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>$</string>
 					<key>name</key>
-					<string>meta.start-condition.lex</string>
+					<string>meta.start-condition.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -83,7 +83,7 @@
 							<key>match</key>
 							<string>\S</string>
 							<key>name</key>
-							<string>invalid.illegal.lex</string>
+							<string>invalid.illegal.alex</string>
 						</dict>
 					</array>
 				</dict>
@@ -95,20 +95,20 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.option.lex</string>
+							<string>keyword.other.option.alex</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>$</string>
 					<key>name</key>
-					<string>meta.options.lex</string>
+					<string>meta.options.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>\b(?:(?:no)?(?:[78]bit|align|backup|batch|c\+\+|debug|default|ecs|fast|full|interactive|lex-compat|meta-ecs|perf-report|read|stdout|verbose|warn|array|pointer|input|unput|yy_(?:(?:push|pop|top)_state|scan_(?:buffer|bytes|string))|main|stack|stdinit|yylineno|yywrap)|(?:case(?:ful|less)|case-(?:in)?sensitive|(?:always|never)-interactive))\b</string>
 							<key>name</key>
-							<string>support.other.option.lex</string>
+							<string>support.other.option.alex</string>
 						</dict>
 					</array>
 				</dict>
@@ -118,14 +118,14 @@
 					<key>end</key>
 					<string>$</string>
 					<key>name</key>
-					<string>keyword.other.option.lex</string>
+					<string>keyword.other.option.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>\S</string>
 							<key>name</key>
-							<string>invalid.illegal.lex</string>
+							<string>invalid.illegal.alex</string>
 						</dict>
 					</array>
 				</dict>
@@ -139,7 +139,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.sections.lex</string>
+					<string>punctuation.separator.sections.alex</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -154,7 +154,7 @@
 					<key>end</key>
 					<string>^(?=%%$)</string>
 					<key>name</key>
-					<string>meta.section.rules.lex</string>
+					<string>meta.section.rules.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -163,7 +163,7 @@
 							<key>end</key>
 							<string>$</string>
 							<key>name</key>
-							<string>meta.rule.lex</string>
+							<string>meta.rule.alex</string>
 							<key>patterns</key>
 							<array>
 								<dict>
@@ -178,17 +178,17 @@
 										<key>1</key>
 										<dict>
 											<key>name</key>
-											<string>keyword.other.start-condition.lex</string>
+											<string>keyword.other.start-condition.alex</string>
 										</dict>
 										<key>2</key>
 										<dict>
 											<key>name</key>
-											<string>keyword.operator.eof.lex</string>
+											<string>keyword.operator.eof.alex</string>
 										</dict>
 										<key>3</key>
 										<dict>
 											<key>name</key>
-											<string>invalid.illegal.regexp.lex</string>
+											<string>invalid.illegal.regexp.alex</string>
 										</dict>
 									</dict>
 									<key>comment</key>
@@ -211,7 +211,7 @@
 										<key>1</key>
 										<dict>
 											<key>name</key>
-											<string>punctuation.definition.code.lex</string>
+											<string>punctuation.definition.code.alex</string>
 										</dict>
 									</dict>
 									<key>comment</key>
@@ -223,12 +223,12 @@
 										<key>1</key>
 										<dict>
 											<key>name</key>
-											<string>punctuation.terminator.code.lex</string>
+											<string>punctuation.terminator.code.alex</string>
 										</dict>
 										<key>2</key>
 										<dict>
 											<key>name</key>
-											<string>invalid.illegal.ignored.lex</string>
+											<string>invalid.illegal.ignored.alex</string>
 										</dict>
 									</dict>
 									<key>patterns</key>
@@ -247,7 +247,7 @@
 									<key>end</key>
 									<string>$</string>
 									<key>name</key>
-									<string>meta.rule.action.lex</string>
+									<string>meta.rule.action.alex</string>
 									<key>patterns</key>
 									<array>
 										<dict>
@@ -268,13 +268,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.sections.lex</string>
+							<string>punctuation.separator.sections.alex</string>
 						</dict>
 					</dict>
 					<key>comment</key>
 					<string>third section of the file - user code</string>
 					<key>contentName</key>
-					<string>meta.section.user-code.lex</string>
+					<string>meta.section.user-code.alex</string>
 					<key>end</key>
 					<string>\Z.\A(?# never end)</string>
 					<key>patterns</key>
@@ -298,11 +298,11 @@
 					<key>match</key>
 					<string>\b(?:ECHO|BEGIN|REJECT|YY_FLUSH_BUFFER|YY_BREAK|yy(?:more|less|unput|input|terminate|text|leng|restart|_(?:push|pop|top)_state|_(?:create|switch_to|flush|delete)_buffer|_scan_(?:string|bytes|buffer)|_set_(?:bol|interactive))(?=\(|$))\b</string>
 					<key>name</key>
-					<string>support.function.c.lex</string>
+					<string>support.function.haskell.alex</string>
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>source.c</string>
+					<string>source.haskell</string>
 				</dict>
 			</array>
 		</dict>
@@ -318,12 +318,12 @@
 					<key>end</key>
 					<string>^%\}$</string>
 					<key>name</key>
-					<string>meta.embedded.source.c.lex</string>
+					<string>meta.embedded.source.haskell.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>include</key>
-							<string>source.c</string>
+							<string>source.haskell</string>
 						</dict>
 					</array>
 				</dict>
@@ -335,12 +335,12 @@
 					<key>end</key>
 					<string>$</string>
 					<key>name</key>
-					<string>meta.embedded.source.c.lex</string>
+					<string>meta.embedded.source.haskell.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>include</key>
-							<string>source.c</string>
+							<string>source.haskell</string>
 						</dict>
 					</array>
 				</dict>
@@ -351,7 +351,7 @@
 			<key>match</key>
 			<string>\\(?i:[0-9]{1,3}|x[0-9a-f]{1,2}|.)</string>
 			<key>name</key>
-			<string>constant.character.escape.lex</string>
+			<string>constant.character.escape.alex</string>
 		</dict>
 		<key>rec_csource</key>
 		<dict>
@@ -363,7 +363,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.c</string>
+					<string>source.haskell</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -380,13 +380,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.anchor.regexp.lex</string>
+					<string>keyword.control.anchor.regexp.alex</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(\$)?(?:(?=\s)|$)</string>
 			<key>name</key>
-			<string>string.regexp.lex</string>
+			<string>string.regexp.alex</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -411,12 +411,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.character-class.set.lex</string>
+							<string>punctuation.definition.character-class.set.alex</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.negation.regexp.lex</string>
+							<string>keyword.operator.negation.regexp.alex</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -426,11 +426,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.terminator.character-class.set.lex</string>
+							<string>punctuation.terminator.character-class.set.alex</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>constant.other.character-class.set.lex</string>
+					<string>constant.other.character-class.set.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -443,13 +443,13 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>invalid.illegal.regexp.lex</string>
+									<string>invalid.illegal.regexp.alex</string>
 								</dict>
 							</dict>
 							<key>match</key>
 							<string>\[:(?:(?:alnum|alpha|blank|cntrl|x?digit|graph|lower|print|punct|space|upper)|(.*?)):\]</string>
 							<key>name</key>
-							<string>constant.other.character-class.set.lex</string>
+							<string>constant.other.character-class.set.alex</string>
 						</dict>
 					</array>
 				</dict>
@@ -457,7 +457,7 @@
 					<key>match</key>
 					<string>(?i){[a-z_][a-z0-9_-]*}</string>
 					<key>name</key>
-					<string>variable.other.lex</string>
+					<string>variable.other.alex</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -465,7 +465,7 @@
 					<key>end</key>
 					<string>\}</string>
 					<key>name</key>
-					<string>keyword.operator.quantifier.regexp.lex</string>
+					<string>keyword.operator.quantifier.regexp.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -478,7 +478,7 @@
 							<key>match</key>
 							<string>[^}]</string>
 							<key>name</key>
-							<string>invalid.illegal.regexp.lex</string>
+							<string>invalid.illegal.regexp.alex</string>
 						</dict>
 					</array>
 				</dict>
@@ -488,7 +488,7 @@
 					<key>end</key>
 					<string>"</string>
 					<key>name</key>
-					<string>string.quoted.double.regexp.lex</string>
+					<string>string.quoted.double.regexp.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -505,7 +505,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.quantifier.regexp.lex</string>
+							<string>keyword.operator.quantifier.regexp.alex</string>
 						</dict>
 					</dict>
 					<key>comment</key>
@@ -518,7 +518,7 @@
 							<key>match</key>
 							<string>.</string>
 							<key>name</key>
-							<string>invalid.illegal.regexp.lex</string>
+							<string>invalid.illegal.regexp.alex</string>
 						</dict>
 					</array>
 				</dict>
@@ -526,7 +526,7 @@
 					<key>match</key>
 					<string>[*+?]</string>
 					<key>name</key>
-					<string>keyword.operator.quantifier.regexp.lex</string>
+					<string>keyword.operator.quantifier.regexp.alex</string>
 				</dict>
 				<dict>
 					<key>comment</key>
@@ -534,7 +534,7 @@
 					<key>match</key>
 					<string>&lt;&lt;EOF&gt;&gt;</string>
 					<key>name</key>
-					<string>invalid.illegal.regexp.lex</string>
+					<string>invalid.illegal.regexp.alex</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -544,7 +544,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.group.regexp.lex</string>
+							<string>punctuation.definition.group.regexp.alex</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -554,18 +554,18 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.terminator.group.regexp.lex</string>
+							<string>punctuation.terminator.group.regexp.alex</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.group.regexp.lex</string>
+					<string>meta.group.regexp.alex</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>/</string>
 							<key>name</key>
-							<string>invalid.illegal.regexp.lex</string>
+							<string>invalid.illegal.regexp.alex</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -581,7 +581,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.trailing-match.regexp.lex</string>
+							<string>keyword.operator.trailing-match.regexp.alex</string>
 						</dict>
 					</dict>
 					<key>comment</key>
@@ -594,7 +594,7 @@
 							<key>match</key>
 							<string>/|\$(?!\S)</string>
 							<key>name</key>
-							<string>invalid.illegal.regexp.lex</string>
+							<string>invalid.illegal.regexp.alex</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -606,8 +606,8 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.lex</string>
+	<string>source.alex</string>
 	<key>uuid</key>
-	<string>92E842A0-9DE6-4D31-A6AC-1CDE0F9547C5</string>
+	<string>4b5714cb-a5e2-4134-9969-5e96c98ea1dd</string>
 </dict>
 </plist>
